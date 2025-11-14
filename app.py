@@ -10,7 +10,7 @@ app = Flask(__name__)
 #   SUPABASE DATABASE URL
 # ---------------------------
 # Replace [YOUR_PASSWORD] with your actual DB password
-DATABASE_URL = "postgresql://postgres:AaBbCc%4010@db.dwatbljnrgszrpmqtusp.supabase.co:5432/postgres"
+DATABASE_URL = "postgresql://postgres:AaBbCc@10@db.dwatbljnrgszrpmqtusp.supabase.co:5432/postgres"
 
 app.config["SQLALCHEMY_DATABASE_URI"] = DATABASE_URL
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
