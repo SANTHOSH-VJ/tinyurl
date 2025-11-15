@@ -7,7 +7,7 @@ import os
 app = Flask(__name__)
 
 # Read database URL from Vercel environment variable
-DATABASE_URL = os.environ.get("DATABASE_URL")
+DATABASE_URL = "postgresql://postgres:sandy1024@db.tskwuxgnnjftvurwqenm.supabase.co:6543/postgres?sslmode=require"
 
 # Required for PostgreSQL on Vercel/Supabase
 if DATABASE_URL.startswith("postgres://"):
